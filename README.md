@@ -68,6 +68,86 @@ START
 Define 	a 	function 	getDate() return the current date  Define a function getTime() return the current time   
 END 
 
+	Pseudocode for sellbike.py module:  
+START  
+Define a function sellbike ()  
+        Set while loop True  
+                  Input the first name and last name of the seller  
+                  IF name is valid then  
+                          Break the loop  
+                  ELSE  
+                          Print “name is not valid”  
+        Create a sell text file to write and store all the details of the seller  
+        Set while loop True  
+                 Select the option of the bike to sell  
+                 Try:  
+                       Take user input  
+                        IF book is available then  
+                             Add the details related to selected bike in sell text file  
+                             Update the listBikes file from where the bike is selled  
+                             Break the loop                          ELSE                                print “bike is not available”                   
+Except:  
+                         print “input the valid number”  
+        Set while loop true  
+                  Ask user to input (Y/N) for yes or no to sell more bike 
+                  IF input is Y then  
+                             Select the option of the bike to sell   
+                             Try:  
+                                   Take user input   
+                                   IF bike is available then  
+                                   Add details related to selected bike in sell text file  
+                                   Update the listBikes file from where the bike is selled  
+                                   Break all the while loop                                     ELSE                                        print “bike is not available”                               
+Except:                                              
+print“inputvalidnumber” 
+                  ELIF input is N then  
+                           Break all the loop                   
+ELSE  
+                           print “input as instructed”                  
+ELSE  
+                           print “bike is not available          
+END  
+
+ Pseudocode for addStock.py module:  
+START  
+Define a function addStock ()          
+Input the name of the bike  
+        Try:  
+              Check the validity of the Bike name  
+              IF the given name is valid then  
+                   Read and display the sell text file of given bike name  
+                   Create a addStock text file of the bike 
+                   Increase the quantity of the addStock in Bike management    system file.  
+                   Check for the addStock of the bike 
+                             Add the total cost in the addStock text file  
+Except:  
+                  print “given person hasn’t bought any bikes”  
+                  Call the function addStock()   
+END  
+
+
+ Pseudocode for main.py module:  
+
+ START  
+Define a function main()        
+Set the while loop True  
+                Try:  
+                      Ask the user to input the choice for display, sell, addStock or exit  
+                      IF choice is for display  
+                             Call the function of display module  
+                      ELIF choice is for sell 
+                            Call the function of sellBikes module  
+                     ELIF choice is for addStock  
+                           Call the function of addStock module  
+                     ELIF choice is for exit  
+                          Display suitable message for exit  
+                          Break the while loop                
+Except ValueError:  
+                           Display suitable message for error  
+ END  
+
+
+
 
  
 
