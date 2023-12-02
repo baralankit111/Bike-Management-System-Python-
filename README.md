@@ -52,6 +52,23 @@ Step 19: From Step 3. If user input is to exit. Exit the program by breaking the
  
  Planning to have a Bike management system for motorbike dealer but at the same time, you are not sure whether the resources that you have are enough. What will you do? You will define a work plan that will ensure you spend the little resources available to finish the Bike management system that is an Algorithm. 
 
+ Pseudocode
 
+ 	Pseudocode for display.py module:  
+START  
+Define a function startScreen()  
+          Open a text file containing bikes name,model,company name using file mode open  
+          Read all the lines of the file using readlines() and store in a variable  
+          Close the file  
+          Declare a for loop in lines print line of the lines  
+END  
+
+	Pseudocode for dateTime.py module:  
+START  
+Define 	a 	function 	getDate() return the current date  Define a function getTime() return the current time   
+END 
+
+
+ 
 
 
